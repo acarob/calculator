@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
 
 .App {
-  height: 100%;
+  height: 100vh;
   padding: 10px;
   background-color: #20264d;
   font-family: "Mali", cursive;
