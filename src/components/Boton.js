@@ -11,6 +11,7 @@ function Boton(props) {
       className={`boton-container ${
         isOperator(props.children) ? "operator" : ""
       }`.trimEnd()}
+      onClick={() => props.manageClick(props.children)}
     >
       {props.children}
     </div>
