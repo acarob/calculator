@@ -25,8 +25,6 @@ function App() {
     <div className="App">
       <div className="logo-container">
         <img src={calc} className="logo" alt="calculator-logo" />
-        <h1>Time to calculate</h1>
-        <img src={calc} className="logo" alt="calculator-logo" />
       </div>
       <div className="calculator-container">
         <Screen input={input} />
